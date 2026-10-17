@@ -1,0 +1,32 @@
+# Archivos comprimidos
+*.zip
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs y SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Guías y notas de Gemini
+*gemini-code*.md
+*GUIA_EQUIPO*.md
+
+# Caso 1 (repositorio aparte)
+**/caso1_cauce/
+caso1_cauce/
