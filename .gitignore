@@ -1,8 +1,4 @@
-# Archivos comprimidos
-*.zip
-*.tar.gz
-
-# Python
+# Python y compilados
 __pycache__/
 *.py[cod]
 *$py.class
@@ -17,16 +13,18 @@ env/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
-# IDEs y SO
+# IDEs y Sistema Operativo
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Guías y notas de Gemini
+# Archivos comprimidos y respaldos
+*.zip
+*.tar.gz
+
+# Carpetas y archivos de trabajo originales heredados
+materiales_estudiantes/
+materiales_estudiantes.zip
 *gemini-code*.md
 *GUIA_EQUIPO*.md
-
-# Caso 1 (repositorio aparte)
-**/caso1_cauce/
-caso1_cauce/
